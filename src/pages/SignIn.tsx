@@ -1,6 +1,8 @@
+import { MainLayout } from "../components/Layouts"
+
 function SignIn() {
   return (
-    <div>SignIn</div>
+    <MainLayout>SignIn</MainLayout>
   )
 }
 

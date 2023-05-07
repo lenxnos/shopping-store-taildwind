@@ -1,6 +1,8 @@
+import { MainLayout } from "../components/Layouts"
+
 function MyOrders() {
   return (
-    <div>MyOrders</div>
+    <MainLayout>MyOrders</MainLayout>
   )
 }
 

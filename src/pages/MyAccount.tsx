@@ -1,6 +1,8 @@
+import { MainLayout } from "../components/Layouts"
+
 const MyAccount = () => {
   return (
-    <div>MyAccount</div>
+    <MainLayout>MyAccount</MainLayout>
   )
 }
 

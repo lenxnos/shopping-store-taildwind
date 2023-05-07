@@ -1,6 +1,8 @@
+import { MainLayout } from "../components/Layouts"
+
 function NotFound() {
   return (
-    <div>NotFound</div>
+    <MainLayout>NotFound</MainLayout>
   )
 }
 
