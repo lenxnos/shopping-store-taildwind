@@ -1,5 +1,5 @@
 import { useState, useCallback } from 'react';
-import { Product } from '../types/Product';
+import { Product } from '../types/product';
 
 async function fetchProducts(): Promise<Product[]> {
   const response = await window.fetch('https://api.escuelajs.co/api/v1/products');
