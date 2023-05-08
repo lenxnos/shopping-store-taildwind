@@ -1,7 +1,8 @@
+import { useShoppingCart } from "../../context/shoppingCartContext";
 import { NavItem } from "../NavItem";
 
 export const Navbar = () => {
-
+  const { count } = useShoppingCart();
   const activeNavClassName = "underline underline-offset-4";
 
   return (
@@ -100,7 +101,7 @@ export const Navbar = () => {
           </NavItem>
         </li>
         <li>
-          🛒 0
+          🛒 {count}
         </li>
       </ul>
     </nav>
